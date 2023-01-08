@@ -1,4 +1,14 @@
 {
+  "name": "cypress-config-env",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jjhelguero/cypress-config-env.git",
+  "author": "jjhelguero <joshua.helguero@mercari.com>",
+  "license": "MIT",
+  "scripts": {
+    "cy:open": "yarn install && cypress open",
+    "cyweb": "as-a test yarn cy:open"
+  },
   "dependencies": {
     "cypress": "^12.3.0"
   }
