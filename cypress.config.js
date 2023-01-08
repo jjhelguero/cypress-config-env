@@ -7,6 +7,9 @@ module.exports = defineConfig({
       on("task", {
         'getImportantToken'() {
           return process.env.IMPORTANT_TOKEN
+        },
+        'getCypressToken'() {
+          return config.env.TOKEN
         }
       })
     },
