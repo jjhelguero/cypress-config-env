@@ -10,6 +10,6 @@
     "cyweb": "as-a test yarn cy:open"
   },
   "dependencies": {
-    "cypress": "^12.3.0"
+    "cypress": "^13.0.0"
   }
 }
