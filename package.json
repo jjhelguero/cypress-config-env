@@ -6,7 +6,7 @@
   "author": "jjhelguero <joshua.helguero@mercari.com>",
   "license": "MIT",
   "scripts": {
-    "cy:open": "yarn install && cypress open",
+    "cy:open": "yarn install && cypress open --e2e",
     "cyweb": "as-a test yarn cy:open"
   },
   "dependencies": {
