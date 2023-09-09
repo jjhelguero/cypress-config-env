@@ -16,3 +16,4 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           install: false
+          env: IMPORTANT_TOKEN=${{env.IMPORTANT_TOKEN}},CYPRESS_TOKEN=${{env.CYPRESS_TOKEN}}
