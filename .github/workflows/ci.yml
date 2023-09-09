@@ -17,5 +17,5 @@ jobs:
         with:
           install: false
         env: 
-          IMPORTANT_TOKEN: ${{ env.IMPORTANT_TOKEN }}
-          CYPRESS_TOKEN: ${{ env.CYPRESS_TOKEN }}
+          IMPORTANT_TOKEN: ${{ secrets.IMPORTANT_TOKEN }}
+          CYPRESS_TOKEN: ${{ secrets.CYPRESS_TOKEN }}
