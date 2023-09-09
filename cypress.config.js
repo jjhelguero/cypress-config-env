@@ -9,7 +9,7 @@ module.exports = defineConfig({
           return process.env.IMPORTANT_TOKEN
         },
         'getCypressToken'() {
-          return config.env.CYPRESS_TOKEN
+          return process.env.CYPRESS_TOKEN
         }
       })
     },
