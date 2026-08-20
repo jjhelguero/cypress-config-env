@@ -9,11 +9,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install Dependencies
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v7.4.3
         with:
           runTests: false
       - name: Run Tests
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v7.4.3
         with:
           install: false
         env: 
